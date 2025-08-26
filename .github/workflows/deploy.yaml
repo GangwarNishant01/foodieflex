@@ -9,7 +9,7 @@ env:
   AWS_REGION: ap-south-1
   ECR_REPOSITORY: foodieflex
   ECS_CLUSTER: foodieflex-cluster
-  ECS_SERVICE: foodieflex-service
+  ECS_SERVICE: foodieflex-task-definition-service-5qumoaam
   ECS_TASK_DEFINITION: foodieflex-task-definition
   NODE_ENV: test
 
