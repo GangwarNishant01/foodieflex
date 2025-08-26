@@ -30,7 +30,7 @@ To set up and run FoodieFlex locally:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/anmol11p/foodieflex_nodejs.git
+   git clone https://github.com/GangwarNishant01/foodieflex.git
    cd foodieflex_nodejs
    ```
 2. **Install dependencies:**
@@ -98,4 +98,4 @@ Please ensure your code follows the existing style and conventions.  Feel free t
 
 ## Contact / Author
 
-FoodieFlex was developed by **Anmol Panday** (GitHub user `anmol11p`).  You can reach out via GitHub at [github.com/anmol11p](https://github.com/anmol11p).
+FoodieFlex was developed by **Nishant Gangwar** (GitHub user `GangwarNishant01`).  You can reach out via GitHub at [github.com/GangwarNishant01](https://github.com/GangwarNishant01).

@@ -27,7 +27,7 @@ app.set("view engine", "ejs");
 app.use(cookieParser());
 app.use(
   session({
-    secret: process.env.SESSION_SECRET || "anmolPanday",
+    secret: process.env.SESSION_SECRET || "nishant",
     resave: true,
     saveUninitialized: false,
   })
