@@ -60,7 +60,8 @@ jobs:
       - name: Download task definition
         run: |
           aws ecs describe-task-definition --task-definition ${{ env.ECS_TASK_DEFINITION }} \
-          --query taskDefinition > task-definition.json
+          --query 'taskDefinition.{family:family, containerDefinitions:containerDefinitions, executionRoleArn:executionRoleArn, taskRoleArn:taskRoleArn, networkMode:networkMode, volumes:volumes, placementConstraints:placementConstraints, requiresCompatibilities:requiresCompatibilities, cpu:cpu, memory:memory}' \
+          > task-definition.json
 
       - name: Update ECS task definition
         id: task-def
